@@ -1,0 +1,74 @@
+gp_K4: 190 candidates, 100 episodes each
+
+best opportunistic for cost: thresholds (0.65, 0.7)
+                        mean     sd
+cost_rate              11.46   0.25
+tc_I                 1200.00   0.00
+tc_D                 3069.90 300.43
+tc_R                 7190.59 217.11
+downtime              204.66  20.03
+n_system_failures      63.84   4.43
+n_component_failures   65.27   4.65
+n_replacements        195.95   5.78
+
+best single for cost: thresholds (0.7,)
+                        mean     sd
+cost_rate              11.46   0.25
+tc_I                 1200.00   0.00
+tc_D                 3624.37 316.36
+tc_R                 6636.78 199.67
+downtime              241.62  21.09
+n_system_failures      69.54   4.24
+n_component_failures   71.14   4.49
+n_replacements        180.63   5.40
+
+Pareto front (cost rate vs system failures): 48 points
+       family       params  cost_rate  n_system_failures  downtime  n_replacements
+       single       (0.7,)      11.47              69.25    241.40          180.90
+       single      (0.65,)      11.47              63.94    202.65          196.99
+opportunistic   (0.6, 0.7)      11.57              57.87    175.80          210.68
+opportunistic  (0.6, 0.65)      11.57              57.71    170.59          213.04
+       single       (0.6,)      11.58              57.50    168.07          214.40
+opportunistic (0.55, 0.75)      11.76              52.13    162.73          221.56
+opportunistic  (0.55, 0.7)      11.76              51.41    150.58          226.65
+opportunistic (0.55, 0.65)      11.78              50.18    140.46          231.18
+opportunistic  (0.55, 0.6)      11.81              50.13    135.20          234.03
+       single      (0.55,)      11.82              50.02    133.60          235.07
+opportunistic   (0.5, 0.8)      11.97              48.96    177.29          222.49
+opportunistic  (0.5, 0.75)      11.98              46.34    150.52          233.25
+opportunistic   (0.5, 0.7)      12.03              44.43    130.54          242.61
+opportunistic  (0.5, 0.65)      12.09              42.57    114.78          250.35
+opportunistic   (0.5, 0.6)      12.14              41.71    105.29          255.54
+opportunistic  (0.5, 0.55)      12.18              41.22    101.10          258.40
+       single       (0.5,)      12.20              41.07     99.63          259.53
+opportunistic  (0.45, 0.7)      12.29              39.36    117.86          255.96
+opportunistic (0.45, 0.65)      12.41              36.07     95.29          268.00
+opportunistic  (0.45, 0.6)      12.53              34.43     82.34          276.42
+opportunistic (0.45, 0.55)      12.63              33.12     74.11          282.41
+opportunistic  (0.45, 0.5)      12.68              32.65     71.12          284.87
+       single      (0.45,)      12.70              32.50     69.62          285.87
+opportunistic   (0.4, 0.6)      12.94              29.96     72.52          293.09
+opportunistic  (0.4, 0.55)      13.13              27.56     59.09          303.31
+opportunistic   (0.4, 0.5)      13.23              26.30     52.76          308.52
+opportunistic  (0.4, 0.45)      13.29              25.74     49.52          311.26
+       single       (0.4,)      13.31              25.68     48.94          311.84
+opportunistic (0.35, 0.55)      13.57              23.46     49.78          321.39
+opportunistic  (0.35, 0.5)      13.76              21.52     40.87          329.88
+opportunistic (0.35, 0.45)      13.87              20.58     36.14          334.56
+opportunistic  (0.35, 0.4)      13.91              20.37     35.17          336.00
+       single      (0.35,)      13.92              20.30     34.95          336.37
+opportunistic   (0.3, 0.5)      14.19              18.95     34.89          347.20
+opportunistic  (0.3, 0.45)      14.36              17.52     28.72          354.25
+opportunistic   (0.3, 0.4)      14.44              17.07     26.79          357.04
+opportunistic  (0.3, 0.35)      14.46              16.94     26.50          357.75
+       single       (0.3,)      14.47              16.92     26.42          357.83
+opportunistic (0.25, 0.45)      14.74              16.09     26.02          369.41
+opportunistic  (0.25, 0.4)      14.86              15.38     23.47          373.55
+opportunistic (0.25, 0.35)      14.89              15.20     22.99          374.60
+opportunistic  (0.25, 0.3)      14.89              15.16     22.89          374.80
+opportunistic   (0.2, 0.4)      15.12              14.97     22.77          384.49
+opportunistic  (0.2, 0.35)      15.16              14.76     22.29          385.91
+opportunistic   (0.2, 0.3)      15.17              14.72     22.17          386.19
+opportunistic (0.15, 0.35)      15.31              14.67     22.03          392.65
+opportunistic  (0.15, 0.3)      15.32              14.63     21.91          392.94
+opportunistic   (0.1, 0.3)      15.37              14.62     21.84          395.48

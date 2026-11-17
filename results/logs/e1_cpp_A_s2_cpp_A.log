@@ -1,0 +1,5 @@
+usage: train_dqn.py [-h]
+                    [--scenario {cpp_A,cpp_B,gp_K2,gp_K2_joint,gp_K12,gp_K4}]
+                    [--double] [--seed SEED] [--steps STEPS] [--hidden HIDDEN]
+                    [--eval-episodes EVAL_EPISODES]
+train_dqn.py: error: unrecognized arguments: cpp_A

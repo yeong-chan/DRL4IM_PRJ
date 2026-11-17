@@ -1,0 +1,31 @@
+step   10000  eps 0.84  train cost rate (last 20 ep) 16.35
+step   20000  eps 0.68  train cost rate (last 20 ep) 16.23
+step   30000  eps 0.53  train cost rate (last 20 ep) 15.99
+step   40000  eps 0.37  train cost rate (last 20 ep) 15.52
+step   50000  eps 0.21  train cost rate (last 20 ep) 16.11
+step   60000  eps 0.05  train cost rate (last 20 ep) 16.70
+step   70000  eps 0.05  train cost rate (last 20 ep) 15.92
+step   80000  eps 0.05  train cost rate (last 20 ep) 15.79
+step   90000  eps 0.05  train cost rate (last 20 ep) 16.35
+step  100000  eps 0.05  train cost rate (last 20 ep) 16.55
+step  110000  eps 0.05  train cost rate (last 20 ep) 16.23
+step  120000  eps 0.05  train cost rate (last 20 ep) 16.34
+step  130000  eps 0.05  train cost rate (last 20 ep) 16.84
+step  140000  eps 0.05  train cost rate (last 20 ep) 16.71
+step  150000  eps 0.05  train cost rate (last 20 ep) 15.61
+step  160000  eps 0.05  train cost rate (last 20 ep) 16.29
+step  170000  eps 0.05  train cost rate (last 20 ep) 15.97
+step  180000  eps 0.05  train cost rate (last 20 ep) 15.91
+step  190000  eps 0.05  train cost rate (last 20 ep) 15.69
+step  200000  eps 0.05  train cost rate (last 20 ep) 15.66
+
+mcddqn-f150-r0_gp_K4_s1: greedy policy over 1000 episodes
+                         mean     sd
+cost_rate               16.04   0.40
+tc_I                  1200.00   0.00
+tc_D                 14675.94 191.79
+tc_R                   164.08 423.37
+downtime               978.40  12.79
+n_system_failures        1.17   0.42
+n_component_failures     1.23   0.52
+n_replacements           4.82  13.83
